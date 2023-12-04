@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+}
+
+a{
+    text-decoration: none;
+}
+
+.container{
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.main-header{
+    padding-top: 192px;
+    background-image: url(https://avatars.mds.yandex.net/get-images-cbir/2391771/EPCvbMJ2LMNEkPgzQSpT4A8147/ocr);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+.main-header > h1 {
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
+    font-size: 64px;
+    max-width: 734px;
+    text-align: center;
+    margin: 0 auto 20px;
+    line-height: 94.85px;
+}
+
+.main-header > h2 {
+    font-weight: 400;
+    font-size: 18px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 0 auto 20px;
+    text-align: center;
+    max-width: 734px;
+}
+
+
+.medals{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    padding: 57px 0;
+}
+
+
+.number{
+    color: #F7654A;
+    font-weight: 500;
+    font-size: clamp(40px, 4vw, 72px);
+    text-align: center;
+    line-height: 106px;
+}
+
+.age{
+    font-size: 36px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 53px;
+}
+
+.runok{
+    color: #999;
+    font-size: 18px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.arena-wrapper{
+    padding-top: 200px;
+}
+
+.arena-wrapper > h3{
+    max-width: 506px;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 53.35px;
+    text-align: center;
+    margin: 0 auto 60px;
+    text-transform: uppercase;
+    color: rgba(64, 65, 73, 1);
+}
+
+.arenas{
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+.photo{
+    max-width: 100%;
+}
+
+.arenas > article > h4{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 35px;
+    color: #404149;
+    margin: 66px 0 20px;
+    position: relative;
+}
+
+.arenas > article > h4::before{
+    content: "";
+    position: absolute;
+    left: 0;
+    top: -15px;
+    width: 55px;
+    height: 6px;
+    background-color:#F7654A ;
+}
+
+.arenas > article > p{
+    margin-top: 20px;
+    max-width: 350px;
+    font-weight: 400px;
+    font-size: 16px;
+    line-height: 21.79px;
+    color:rgba(153, 153, 153, 1);
+    font-family: 'Open Sans';
+}
+
+.projects-wrapper{
+    width: 100%;
+    background-color: rgba(247, 101, 74, 1);
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.best-projects {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left > h3{
+    max-width: 537px;
+    font-weight: 700;
+    font-size: 48px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 71.14px;
+    margin-bottom: 20px;
+}
+
+.left > h4{
+    max-width: 537px;
+    font-weight: 700;
+    font-size: 24px;
+    color: rgba(255, 255, 255, 1);
+    line-height: 35.57px;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+.right > button{
+    width: 175px;
+    height: 49px;
+    font-size: 14px;
+    line-height: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    background-color: #fff;
+    text-transform: uppercase;
+    margin-left: auto;
+    align-self: center;
+}
+
+.right > button:hover{
+    background-color: #000;
+    color: #fff;
+}
+
+
+.cards-wrapper{ 
+    max-width: 1110px;
+    width: 100%;
+    padding-top: 10%; 
+ 
+} 
+ 
+.cards-header{ 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.cards-header > h4{ 
+    max-width: 351px;
+    width: 100%; 
+    font-size: clamp(16px, 5vw, 36px);
+    font-weight: 500; 
+    line-height: 1.5; 
+    text-transform: uppercase; 
+    text-align: center; 
+} 
+ 
+.cards1 { 
+    margin-top: 66px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    flex-wrap: wrap;
+} 
+ 
+
+.cards1 > article > p{
+    margin-top: 30px;
+    margin-left: 86px;
+    max-width: 172px;
+    height: 62px;
+    font-weight: 500;
+    font-size: clamp(16px, 2vw, 21px) ;
+    line-height: 31.12px;
+    letter-spacing: 0.42px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+ 
+.cards1 > article{ 
+    height: auto;
+    background-color: rgba(247, 247, 247, 1); 
+    text-align: center; 
+    box-sizing: border-box;
+    width: calc(350px - 10px); 
+    margin-bottom: 20px;
+} 
+ 
+
+.fa-solid{
+    margin-top: 60px;
+    max-width: 60px;
+    max-height: 40px;
+    font-size: 48px;
+    line-height: 40.31px;
+    text-align: center;
+}
+
+.fa-regular{
+    margin-top: 60px;
+    max-width: 71px;
+    max-height: 40px;
+    font-size: 48px;
+    line-height: 40.31px;
+    text-align: center;
+}
+
+
+.contacts{
+    padding-top: 112px;
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.contacts-header{
+    display: flex;
+    justify-content: center;
+}
+
+.contacts-header > h3{
+    max-width: 159px;
+    text-align: center;
+    font-size: clamp(16px, 5vw, 36px);
+    font-weight: 500;
+    line-height: normal;
+    text-transform: uppercase;
+}
+
+.contacts-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    margin-top: 60px; 
+}
+
+.contacts-cards > article{
+    max-width: 255px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.contacts-cards > article > h4{
+    padding-top: 36px;
+    color:  #999;
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 500;
+    line-height: normal;
+}
+
+.cards-text{
+   text-align: center;
+   padding-top: 25px;
+   font-size: clamp(16px, 2vw, 24px);
+   font-weight: 500;
+}
+
+.for-link{
+    max-height: 276px;
+}
+
+.for-link > h4{
+    align-items: center;
+}
+
+.for-link > .cards-text > p > a{
+    text-align: center;
+    font-size: clamp(16px, 2vw, 24px);
+    font-weight: 500;
+    color: #000;
+    border: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.for-link > .cards-text > p > a:hover{
+    color: #F7654A;
+    transition: ease-in-out 0.3s;
+}
+
+.main-footer{
+    margin-top: 60px;
+    max-width: 1920px;
+    width: 100%;
+    height: 82px;
+    background-color: rgba(64, 65, 73, 1);
+    align-items: center;
+}
+
+.main-footer > .container {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 82px;
+}
+
+.main-footer > .container > p{
+    vertical-align: middle;
+    color: #fff;
+    font-size: clamp(8px, 2vw, 16px);
+    font-weight: 400;
+    font-family: 'Open Sans';
+}
+
+
+@media screen and (max-width: 750px) {
+
+    .main-header h1 {
+        font-size: 24px;
+        line-height: 34px;
+    }
+    
+    .main-header h2 {
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+}
+
+@media screen and (max-width: 450px){
+    .medals{
+        flex-wrap: wrap;
+    }
+
+    .age{
+        font-size: 24px;
+    }
+
+    .runok{
+        font-size: 16px;
+    }
+
+    .best-projects{
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .left h3{
+        font-size: 36px;
+    }
+
+    .left h4{
+        font-size: 16px;
+    }
+
+    .right button{
+        margin-left: 0;
+        flex-basis: 100%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 390px){
+    .arenas{
+        flex-wrap: wrap;
+        padding: 15px;
+    }
+
+    .arenas h4{
+        font-size: 18px;
+    }
+
+    .arenas p{
+        font-size: 12px;
+    }
+
+    .left h3{
+    font-size: 28px;
+    }
+
+    .left h4{
+    font-size: 14px;
+    }
+    
+}
+
+@media screen and (max-width: 1110px){
+    .cards{
+        grid-template-columns: 150px 150px 150px;
+    }
+}
+
+@media (min-width: 768px) {
+    .cards > article {
+        width: 48%; 
+    }
+}
+
+@media (min-width: 1200px) {
+    .cards > article {
+        width: 30%; 
+    }
+}
