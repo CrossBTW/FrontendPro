@@ -6,11 +6,11 @@ const maxValue = Math.max.apply(null, arr);
     console.log(maxValue);
 
 //2. С помощью цикла создать пустой массив, наполнить массив двузначными числами которые делятся на 3 (с нулевым остатком)
-let arr2 = new Array();
+/*   let arr2 = new Array();
 
-for (let a = 0; ;) {
+    for (let a = 0; ;) {
         console.log(arr2);
     if (a % 3 < 0) {
         break;
-    }
-}
+        }
+    } */
